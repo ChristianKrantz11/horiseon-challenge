@@ -1,6 +1,13 @@
-# Horiseon Marketing: Code Refactor
+<h1 align="center">📈 Horiseon Marketing: Code Refactor</h1>
 
-A refactor of the landing page for **Horiseon**, a fictional digital-marketing agency. The goal is to make the existing code more accessible and search-engine friendly without changing how the page looks.
+<p align="center">An accessibility and SEO refactor of the landing page for Horiseon, a fictional digital-marketing agency.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
+</p>
+
+<p align="center"><img src="docs/screenshot.jpg" alt="Full Horiseon landing page with hero image, three service sections and a benefits sidebar" width="850"></p>
 
 ## Refactor Progress
 
