@@ -7,18 +7,28 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
 </p>
 
-<p align="center"><img src="docs/screenshot.jpg" alt="Full Horiseon landing page with hero image, three service sections and a benefits sidebar" width="850"></p>
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="Full Horiseon landing page on desktop with hero image, three service sections and a benefits sidebar" width="560" align="top">
+  <img src="docs/screenshot-mobile.jpg" alt="Horiseon landing page on a phone" width="190" align="top">
+</p>
 
-## Refactor Progress
+## What Was Refactored
 
-Done:
+The goal was to make the existing site more accessible, better for search engines and easier to maintain, without changing how it looks on desktop.
 
-- Every image has descriptive `alt` text
-- The page has semantic `<header>` and `<footer>` elements
+**Accessibility and SEO**
+- Replaced generic `<div>`s with semantic elements: `<header>`, `<nav>`, `<main>`, `<section>`, `<aside>` and `<footer>`
+- Headings follow a logical order
+- Descriptive `alt` text on content images. Decorative icons use empty `alt` so screen readers skip them.
+- Added a descriptive `<title>`, a meta description and a viewport tag
 
-Still to do:
+**Maintainability**
+- Consolidated three duplicated service blocks into one `.service` class, and three benefit blocks into one `.benefit` class
+- Replaced float-based page layout with Flexbox
+- Organized the CSS to follow the order of the HTML, with comments
 
-- Replace the remaining `<div>` wrappers with semantic elements: `<nav>`, `<main>`, `<section>` and `<aside>`
+**Responsive design**
+- Added breakpoints for tablets (980px) and phones (640px)
 
 ## Page Sections
 
@@ -35,7 +45,7 @@ Still to do:
 ## Built With
 
 - HTML5
-- CSS3
+- CSS3 (Flexbox and Grid)
 
 ## Running Locally
 
