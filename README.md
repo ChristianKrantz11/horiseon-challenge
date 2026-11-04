@@ -1,4 +1,4 @@
-<h1 align="center">📈 Horiseon Marketing: Code Refactor</h1>
+<h1 align="center">Horiseon Marketing: Code Refactor</h1>
 
 <p align="center">An accessibility and SEO refactor of the landing page for Horiseon, a fictional digital-marketing agency.</p>
 
@@ -6,6 +6,8 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css&amp;logoColor=white" alt="CSS3">
 </p>
+
+<p align="center"><a href="https://christiankrantz11.github.io/horiseon-challenge/"><strong>Live Demo</strong></a></p>
 
 <p align="center">
   <img src="docs/screenshot.jpg" alt="Full Horiseon landing page on desktop with hero image, three service sections and a benefits sidebar" width="560" align="top">
@@ -59,4 +61,4 @@ No build step is needed.
 
 ## Author
 
-[ChristianKrantz11](https://github.com/ChristianKrantz11)
+**Christian Krantz**: [Portfolio](https://christiankrantz11.github.io/) · [LinkedIn](https://www.linkedin.com/in/christian-krantz-49976b189) · [GitHub](https://github.com/ChristianKrantz11)
